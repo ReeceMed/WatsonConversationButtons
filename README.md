@@ -152,8 +152,8 @@ After you have the app deployed and running, you can explore the source files an
 
   Styling for the buttons can be found in the CSS.
 2. To add to the buttons to the conversation flow add the following line within the dialog output.
-  * <button id="button-yes" onclick="yesBye();">Yes</button>
-
+  * Yes
+    ![Button Script](readme_images/watsonbuttons.png)
 
 
 ## Deploying to Bluemix
