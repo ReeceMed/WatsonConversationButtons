@@ -1,3 +1,7 @@
+// This file contains all added elements and experimental features
+
+
+//Range slider
 function showValue(newValue)
 {
 	document.getElementById("range").innerHTML=newValue;
@@ -6,6 +10,7 @@ function showValue(newValue)
   Api.sendRequest(newValue, context);
 }
 
+//Buttons
 function yesBye() {
     var latestResponse = Api.getResponsePayload();
     var context = latestResponse.context;
